@@ -1,0 +1,12 @@
+@use '../../../sass/abstracts/' as *;
+
+.logo {
+  text-transform: uppercase;
+  font-size: var(--size-5);
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: var(--color-grey-50);
+  @include break-point('medium', 'up') {
+    font-size: var(--size-8);
+  }
+}
